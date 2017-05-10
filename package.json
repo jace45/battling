@@ -1,0 +1,23 @@
+{
+  "name": "battling",
+  "version": "1.0.0",
+  "description": "trying to see how I learn",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jace45/battling.git"
+  },
+  "author": "jace45",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jace45/battling/issues"
+  },
+  "homepage": "https://github.com/jace45/battling#readme",
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  }
+}

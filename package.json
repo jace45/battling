@@ -4,14 +4,17 @@
   "description": "trying to see how I learn",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server --open --host 0.0.0.0 --port 8080"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jace45/battling.git"
   },
-  "babel" : {
-    "presets": ["env", "react"]
+  "babel": {
+    "presets": [
+      "env",
+      "react"
+    ]
   },
   "author": "jace45",
   "license": "ISC",

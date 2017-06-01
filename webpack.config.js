@@ -1,4 +1,7 @@
 var path = require('path');
+var __dirname = '/';
+const webpack = require('webpack');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports =  {
 
@@ -13,7 +16,8 @@ module.exports =  {
             {test: /\.css$/, use: ['style-loader', 'css-loader']}
         ]
     },
-    plugins: [new HtmlWebpackPlugin({
-        template: 'app/index.html'
-    })]
+    plugins: [
+        new webpack.optimize.UglifyJsPlugin(),
+        new HtmlWebpackPlugin({template: './app/index.html'})
+    ]
 }

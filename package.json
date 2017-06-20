@@ -6,10 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server --open --host 0.0.0.0 --port 8080"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jace45/battling.git"
-  },
+  "repository": "git+https://github.com/jace45/battling.git",
   "babel": {
     "presets": [
       "env",
@@ -24,9 +21,11 @@
   "homepage": "https://github.com/jace45/battling#readme",
   "dependencies": {
     "axios": "^0.16.2",
+    "babel": "^6.23.0",
     "prop-types": "^15.5.10",
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-router-dom": "^4.1.1"
   },
   "devDependencies": {
     "babel-core": "^6.24.1",

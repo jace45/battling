@@ -18,6 +18,7 @@ module.exports =  {
     },
     plugins: [
         new webpack.optimize.UglifyJsPlugin(),
-        new HtmlWebpackPlugin({template: './app/index.html'})
+        new HtmlWebpackPlugin({template: './app/index.html'}),
+        new webpack.ProvidePlugin({"React": "react"})
     ]
 }

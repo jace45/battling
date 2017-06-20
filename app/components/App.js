@@ -1,5 +1,5 @@
-var React = require('react');
-var Popular = require('./Popular');
+import React from 'react';
+import Popular from './Popular';
 
 class App extends React.Component {
     render() {
@@ -11,4 +11,4 @@ class App extends React.Component {
     }
 }
 
-module.exports = App;
+export default App;

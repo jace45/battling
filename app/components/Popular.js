@@ -61,7 +61,7 @@ class Popular extends React.Component {
             repos:  null
         };
 
-        this.updateLanguage = this.updateLanguage.bind(this);
+        this.updatingLanguage = this.updateLanguage.bind(this);
     }
 
     componentDidMount() {
@@ -89,7 +89,7 @@ class Popular extends React.Component {
             <div>
                 <SelectLanguage
                     selectedLanguage = {this.state.selectedLanguage}
-                    onSelect = {this.updateLanguage}
+                    onSelect = {this.updatingLanguage}
                 />
                 {!this.state.repos
                     ? <p>LOADING!</p>

@@ -4,7 +4,8 @@
   "description": "trying to see how I learn",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --open --host 0.0.0.0 --port 8080"
+    "start": "webpack-dev-server --open --host 0.0.0.0 --port 8080",
+    "test": "mocha-webpack --webpack-config webpack.config-test.js \"src/test/*.test.js\""
   },
   "repository": "git+https://github.com/jace45/battling.git",
   "babel": {
@@ -26,7 +27,8 @@
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-router": "^4.1.1",
-    "react-router-dom": "^4.1.1"
+    "react-router-dom": "^4.1.1",
+    "webpack-node-externals": "^1.6.0"
   },
   "devDependencies": {
     "babel-core": "^6.24.1",

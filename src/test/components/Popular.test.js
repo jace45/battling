@@ -1,6 +1,6 @@
-import * as assert from 'assert';
 
-describe('Empty test', function() {
+
+describe('Should render Popular page', function() {
 
     it('empty test should run successfully', function() {
 

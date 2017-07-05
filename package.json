@@ -27,8 +27,7 @@
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-router": "^4.1.1",
-    "react-router-dom": "^4.1.1",
-    "webpack-node-externals": "^1.6.0"
+    "react-router-dom": "^4.1.1"
   },
   "devDependencies": {
     "babel-core": "^6.24.1",
@@ -45,6 +44,7 @@
     "mocha-webpack": "^0.7.0",
     "style-loader": "^0.17.0",
     "webpack": "^2.5.1",
-    "webpack-dev-server": "^2.4.5"
+    "webpack-dev-server": "^2.4.5",
+    "webpack-node-modules": "^0.1.1"
   }
 }

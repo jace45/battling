@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import api from '../utils/api';
 
-const SelectLanguage = (props) => {
+export const SelectLanguage = (props) => {
     var languages = ['All', 'JavaScript', 'Ruby', 'Java', 'CSS', 'Python'];
     return (
         <ul className="languages">

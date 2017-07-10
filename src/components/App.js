@@ -13,7 +13,7 @@ class App extends React.Component {
                 <div className="container">
                     <Nav />
                     <Route exact path="/" component={Home} />
-                    <Route path="/battle" component={Battle} />
+                    <Route exact path="/battle" component={Battle} />
                     <Route path="/popular" component={Popular} />
                 </div>
             </Router>

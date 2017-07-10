@@ -3,7 +3,7 @@ import { expect } from 'chai';
 import { shallow } from 'enzyme';
 import Popular, { SelectLanguage }  from '../../src/components/Popular';
 
-describe('Should render Popular page', function() {
+describe('Should render Popular page', () => {
 
     it('empty test should run successfully', function() {
 

@@ -5,7 +5,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports =  {
 
-    entry: './app/index.js',
+    entry: './src/index.js',
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: 'index_bundle.js',
@@ -22,7 +22,7 @@ module.exports =  {
     },
     plugins: [
         new webpack.optimize.UglifyJsPlugin(),
-        new HtmlWebpackPlugin({template: './app/index.html'}),
+        new HtmlWebpackPlugin({template: './src/index.html'}),
         new webpack.ProvidePlugin({"React": "react"})
     ]
 }

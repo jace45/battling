@@ -1,15 +1,17 @@
 import axios from 'axios';
 
-function getProfile (username) {
+const getProfile = (username) => {
     return axios.get('https://api.github.com/users/' + username)
-        .then(function (user) {
+        .then((user) => {
             return user.data;
         });
-}
+};
 
-function getRepos (username) {
-    return axios.get('https://api.github.com/users/' + username + '/repos' + '&per_page=100');
-}
+
+
+const getRepos = (username) => (
+    axios.get('https://api.github.com/users' + username + '/repos&per_page=100')
+);
 
 function getStarCount (repos) {
     return repos.data.reduce(function (count, repo) {
